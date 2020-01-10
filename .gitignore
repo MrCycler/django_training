@@ -1,0 +1,12 @@
+# Entorno virtual 
+platzigram_env
+
+# Archivos de python
+*.pyc
+
+# Folder view configuration files
+*.DS_Store
+*.ini
+
+
+
