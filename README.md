@@ -47,5 +47,6 @@
 - v1.0.0: aplicacion por defecto (Archivos por defecto)
 - v1.1.0: api simple para ordernar numeros y restringir por edad
 - v1.2.0: app para mostrar posts
+- v1.3.0: app para mostrar posts con un template
 
 
