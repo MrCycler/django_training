@@ -41,6 +41,6 @@
 
 ## VERSIONES DE ESTA APLICACION
 - v1.0.0: aplicacion por defecto (Archivos por defecto)
-- v1.1.0: api simple para ordernar numeros
+- v1.1.0: api simple para ordernar numeros y restringir por edad
 
 
