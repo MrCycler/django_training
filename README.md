@@ -36,11 +36,16 @@
 ## COMANDOS DE GESTION CON DJANGO
 - ### para iniciar un nuevo proyecto en django
 `django-admin startproject platzigram`
+- ### para correr el servidor
+`python manage.py runserver`
+- ### para iniciar una nueva app dentro del proyecto en django
+`python manage.py startapp posts`
 
 <hr />
 
 ## VERSIONES DE ESTA APLICACION
 - v1.0.0: aplicacion por defecto (Archivos por defecto)
 - v1.1.0: api simple para ordernar numeros y restringir por edad
+- v1.2.0: app para mostrar posts
 
 
