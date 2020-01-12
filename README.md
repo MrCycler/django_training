@@ -40,7 +40,44 @@
 `python manage.py runserver`
 - ### para iniciar una nueva app dentro del proyecto en django
 `python manage.py startapp posts`
+- ### para procesar las migraciones
+`python manage.py makemigrations`
+- ### para aplicar migraciones
+`python manage.py migrate`
+- ### abrir la consola interactiva de python
+`python manage.py shell`
 
+<hr />
+
+## COMANDOS PARA INSTACIAR MODELOS
+
+- ### importar el modelo del paquete
+`from posts.models import User`
+- ### para crear una instancia
+`pablo = User.objects.create(email='hola@gmail.com',password='1234567',first_name='Pablo',last_name='Trinidad')`
+- ### otra forma de crear la instancia
+`pablo = User()`
+`pablo.email='hola@gmail.com'`
+`pablo.password='1234567'`
+`pablo.first_name='Pablo'`
+`pablo.last_name='Trinidad'`
+`pablo.is_admin= True`
+`pablo.save()`
+- ### leer un dato de la instancia
+`pablo.email`
+- ### actualizar un dato de la instancia
+`pablo.email = 'aea@gmail.com'`
+`pablo.save()`
+- ### para borrar una instancia
+`pablo.delete()`
+- ### busqueda de una instancia - solo devuelve una instancia
+`user = User.objects.get(email='hola@gmail.com')`
+- ### busqueda de varias instancias
+`platzi_users = User.objects.filter(email__endswith='@gmail.com')`
+- ### obtiene todas las instancias
+`users = User.objects.all()`
+- ### actualizacion de varias instancias
+`platzi_users = User.objects.filter(email__endswith='@gmail.com').update(is_admin=True)`
 <hr />
 
 ## VERSIONES DE ESTA APLICACION
@@ -48,5 +85,6 @@
 - v1.1.0: api simple para ordernar numeros y restringir por edad
 - v1.2.0: app para mostrar posts
 - v1.3.0: app para mostrar posts con un template
+- v1.4.0: modelo user creado
 
 
