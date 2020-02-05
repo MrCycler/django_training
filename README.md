@@ -49,7 +49,7 @@
 
 <hr />
 
-## COMANDOS PARA INSTACIAR MODELOS
+## COMANDOS PARA INSTANCIAR MODELOS
 
 - ### importar el modelo del paquete
 `from posts.models import User`
@@ -78,6 +78,7 @@
 `users = User.objects.all()`
 - ### actualizacion de varias instancias
 `platzi_users = User.objects.filter(email__endswith='@gmail.com').update(is_admin=True)`
+
 <hr />
 
 ## VERSIONES DE ESTA APLICACION
@@ -86,5 +87,6 @@
 - v1.2.0: app para mostrar posts
 - v1.3.0: app para mostrar posts con un template
 - v1.4.0: modelo user creado
+- v1.4.1: teoría agregada en readme y otros archivos
 
 
