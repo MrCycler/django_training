@@ -88,5 +88,7 @@
 - v1.3.0: app para mostrar posts con un template
 - v1.4.0: modelo user creado
 - v1.4.1: teoría agregada en readme y otros archivos
+- v1.5.0: modelo profile creado basado en user y añadida la plantilla para su gestión en el admin
+- v1.6.0: se puede crear profile en la misma pantalla en que se crea usuario
 
 
