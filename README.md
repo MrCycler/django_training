@@ -94,5 +94,6 @@
 - v1.5.0: modelo profile creado basado en user y añadida la plantilla para su gestión en el admin
 - v1.6.0: se puede crear profile en la misma pantalla en que se crea usuario
 - v1.7.0: creado el modelo post que usa user y profile
+- v1.8.0: se crea carpeta para almacenar las imagenes y asignarles urls
 
 
