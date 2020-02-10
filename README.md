@@ -96,5 +96,6 @@
 - v1.7.0: creado el modelo post que usa user y profile
 - v1.8.0: se crea carpeta para almacenar las imagenes y asignarles urls
 - v1.9.0: templates y archivos estáticos
+- v10.0.0: se crean templates y vistas para el logeo
 
 
