@@ -98,5 +98,6 @@
 - v1.9.0: templates y archivos estáticos
 - v1.10.0: se crean templates y vistas para el logeo
 - v1.11.0: se implementa el logout
+- v1.12.0: se agrego el registro
 
 
